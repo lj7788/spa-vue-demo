@@ -19,10 +19,7 @@
     <router-view :key="$route.path"/>
      <div id="single-vue" class="single-spa-vue">
         <div id="vue"></div>
-    </div>
-    <div id="two-vue" class="single-spa-vue">
-        <div id="vue"></div>
-    </div>
+    </div>    
   </div>
 </template>
 <script>
